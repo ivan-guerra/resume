@@ -1,0 +1,4 @@
+# Ignore pdflatex's intermediate files.
+*.log
+*.out
+*.aux
