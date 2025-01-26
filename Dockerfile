@@ -12,3 +12,5 @@ RUN apt-get update && \
 RUN mkdir -p /mnt/resume
 
 WORKDIR /mnt/resume
+
+CMD ["bash", "-c", "pdflatex ivan_guerra_resume.tex"]
